@@ -1,159 +1,81 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<meta charset="utf-8">
 
-		<title>Ren Ma Kendo and Iaido Dojo</title>
+<head>
+	<meta charset="utf-8">
 
-		<link rel="stylesheet" type="text/css" href="Styles/normalize.css" media="screen">
-		<link rel="stylesheet" type="text/css" href="Styles/style.css" media="screen">
-	</head>
+	<title>Ren Ma Kendo and Iaido Dojo</title>
 
-	<body>
-		<header>
-			<div class="container clearfix">
-				<a HREF="index.html" title="Return to Home" id="logo">
-					<img src="Images/renma.png" alt="Logo">
-				</a>
+	<!-- Styling -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./styles/style.css" media="screen" />
+	<!-- Scripting -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 
-				<nav>
-					<ul>
-						<li><a href="about.html">About</a></li>
-						<li><a href="beginners.html">Beginners</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<li><a href="links.html">Links</a></li>
-					</ul>
-				</nav>
-			</div> <!-- end container-->
+<body>
+	<!-- TODO: Make this an external include for brevity -->
+	<header>
+		<div class="container">
+			<nav class="navbar navbar-inverse navbar-fixed-top navbar-collapse">
+				<div class="container-fluid">
+					<!-- Nav header -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavContent">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						<a class="navbar-brand" href="#">RenMa Dojo</a>
+					</div>
+					<!-- Nav content -->
+					<div class="collapse navbar-collapse" id="mainNavContent">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a>Home</a></li>
+							<li class="dropdown">
+								<a class "dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a>Location</a></li>
+									<li><a>Instructors</a></li>
+									<li><a>History</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a class "dropdown-toggle" data-toggle="dropdown">Training<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a>Join RenMa</a></li>
+									<li><a>Practice Schedule</a></li>
+									<li><a>Beginning Kendo</a></li>
+								</ul>
+							</li>
+							<li><a>Contact Us</a></li>
+							<li class="dropdown">
+								<a class "dropdown-toggle" data-toggle="dropdown">Resources<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a>All Links</a></li>
+									<li><a>AUSKF</a></li>
+									<li><a>PNKF</a></li>
+									<li><a>Obukan Dojo</a></li>
+									<li><a>Portland Kendo Club</a></li>
+								</ul>
+							</li>
+							<li><a>Blog</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
 
-			<div id="hero">
-				<div class="container clearfix">
-
-					<div id="hero-title">
-						<h1>Ren Ma Dojo</h1>
-						<h2>Kendo and Iaido for the Portland Metro Area</h2>
-
-						<div id="call-to-action">
-							<a href="beginners.html" class="btn btn-large">Get Started</a>
-							<a href="http://www.auskf.info/docs/intro.htm" target="_blank" class="btn btn-secondary">What is Kendo?</a>
-						</div>
-					</div> <!-- end hero-title-->
-
-					<!-- <img src="Images/header.png" alt="Kendo person thing stuff" id="hero-image"> -->
-
-				</div> <!-- end container-->
-			</div> <!-- end hero-->
-		</header>
-
-		<div id="content" class="container clearfix">
-			<section id="column-content">
-				
-				<div id="lead-in">
-					<p class="lead">Offering instruction in Kendo and Iaido since 2012, Ren Ma is located ideally to serve the Southwest Portland Metro Area, including anyone hailing from Downtown Portland, Beaverton, Lake Oswego, Hillsboro, and Tigard. Our door is always open to visitors, so what are you waiting for?</p>
-				</div> <!-- end lead-in-->
-
-				<div class="column four">
-					<img src="Images/fulton2.png" alt="Fulton Community Center Front">
-					<h4>Weekly Practice Times</h4>
-					<hr>
-					<p><u>Wednesday</u></p>
-					<p>7:00 - 9:00pm - Iaido Practice</p>
-					<p><u>Friday</u></p>
-					<p>7:00 - 9:00pm - Kendo Practice</p>
-					<!--<p>7:00 - 7:15pm - Kata Practice</p>
-					<p>7:15 - 8:00pm - Kendo Kihon</p>
-					<p>8:00 - 8:30pm - Advanced Kendo</p>
-					<p>8:30 - 9:00pm - Open Keiko</p>-->
-				</div> <!-- end column-->
-
-				<div class="column four">
-					<a href="https://www.google.com/maps/place/Fulton+Park+Community+Center/@45.470918,-122.678917,643m/data=!3m2!1e3!4b1!4m2!3m1!1s0x0:0xeb68d6fc5505a607?hl=en" target="_blank"><img src="Images/map3.png" alt="Mapped Location"></a>
-					<h4>Practice Location</h4>
-					<hr>
-					<p><a href="https://www.google.com/maps/place/Fulton+Park+Community+Center/@45.470918,-122.678917,643m/data=!3m2!1e3!4b1!4m2!3m1!1s0x0:0xeb68d6fc5505a607?hl=en" target="_blank">Fulton Park Community Center</a><br>68 SW Miles St.<br>Portland, OR 97219</p>
-					<hr>
-					<p>Located just south of Downtown Portland and PSU. Our dojo is close by, no matter which part of the Portland Metro area you live in!</p>
-				</div> <!-- end column-->
-
-				<div class="column four last">
-					<img src="Images/hiki-dou.png" alt="Get stab- started">
-					<h4>Join Us!</h4>
-					<hr>
-					<p>Interested in trying kendo?<br>
-					Want to learn what Iaido is?<br></p>
-					<p>Registration can be done in person at your first class! If you want to have everything filled out ahead of time, please contact us and we'll send you an electronic copy of the registration form.</p>
-				</div> <!-- end column-->
-			</section> <!-- end column-content-->
-
-			<!-- NEWS SECTION -->
-			<aside>
-				<div class="widget">
-					<h4>Latest News</h4>
-					<hr>
-
-					<h5>June 13, 2015</h5>
-					<p>Rose City Taikai @ PCC Cascade Campus</p>
-					<p>Doors open 9am</p>
-					<p>Registration ends 10am</p>
-					<p>Opening Ceremony 10:15am</p>
-					<hr>
-
-					<h5>Apr 11, 2015</h5>
-					<p>UW Taikai in Seattle, WA</p>
-					<p>Doors open 9am, begins 10am</p>
-					<hr>
-
-					<h5>Mar 14, 2015</h5>
-					<p>Highline Taikai in Renton, WA</p>
-					<hr>
-
-					<h5>Dec 17, 2014</h5>
-					<p>Please join us for our final practice of 2014!</p>
-					<hr>
-
-					<h5>Nov 30, 2014</h5>
-					<p>Enjoy our new website layout!</p>
-					<hr>
-
-				</div> <!-- end News-->
-
-				<div class="widget socials">
-					<h4>Follow Us</h4>
-					<a href="http://twitter.com" target="blank"><img src="Images/social_twitter.gif" alt="Follow us on Twitter"></a>
-					<a href="http://facebook.com" target="blank"><img src="Images/social_facebook.gif" alt="Follow us on Facebook"></a>
-					<a href="http://youtube.com" target="blank"><img src="Images/social_youtube.gif" alt="Follow us on YouTube"></a>
-				</div> <!-- end Follow Us-->
-			</aside>
-
-		</div> <!-- end content-->
-
-		<div id="secondary-cta">
-			<div class="container clearfix">
-				<h4>Keep up to date with the latest news from our dojo</h4>
-
-				<form>
-					<input type="email" placeholder="Enter your email here">
-					<input type="submit" class="btn btn-small" value="Sign up">
-				</form>
-			</div> <!-- end container-->
-		</div> <!-- end secondary-cta-->
-
-		<footer>
-			<div class="container clearfix">
-				<p id="copyright">Copyright &copy; 2014 Ren Ma Kendo and Iaido Dojo. All Rights Reserved.</p>
-				
-				<nav>
-					<ul>
-						<li><a href="about.html">About</a></li>
-                        <li><a href="beginners.html">Beginners</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="links.html">Links</a></li>
-					</ul>
-				</nav>
-			</div> <!-- end container-->
-		</footer>
-
-	</body>
+	<section class="container" id="header">
+		<div class="row text-center text-box">
+			<h1>Kendo and Iaido in Portland, OR</h1>
+			<p><strong>Kendo (剣道 kendō)</strong>, or "Way of The Sword", is a Japanese martial art based on traditional swordsmanship (kenjutsu) using protective armor and bamboo swords (shinai). It is physically and mentally challenging, and can take a lifetime to master. Though it is practiced in a sport-like manner, Kendo adheres to strong martial arts values, with an emphasis on etiquette and respect. </p>
+		</div>
+	</section>
+</body>
 
 </html>
