@@ -70,3 +70,8 @@ body::after {
   max-width: 782px;
   margin: 0px auto;
 }
+
+#map {
+  height: 400px;
+  width: 100%;
+}
